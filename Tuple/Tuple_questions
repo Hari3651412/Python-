@@ -1,0 +1,85 @@
+# Tuples Practice Questions
+
+# 1. Create a tuple named `colors` with the values: "red", "green", "blue", "yellow".
+
+colors=("red", "green", "blue", "yellow")
+print(colors)
+
+# 2. Access the second item from the tuple `colors`.
+second_item=colors[1]
+print(second_item)
+
+# 3. Slice the tuple to get the last two elements.
+last_elements=colors[-2:]
+print(last_elements)
+
+
+# 4. Create a single-item tuple with the value "Python". Confirm its type.
+single_item=("python",)
+print(type(single_item))
+
+# 5. Try modifying the first item of a tuple: (10, 20, 30). What happens?
+
+numbers=(10,20,30)
+numbers[0]=100
+print(numbers)
+
+# 6. Unpack the tuple (1, 2, 3) into variables a, b, and c.
+numbers=(1,2,3)
+a,b,c=numbers
+print(a,b,c)
+
+# 7. Create a tuple named `info` with values: ("Alice", 25, "Engineer").
+#    Use unpacking to assign each value to a variable.
+info=("Alice", 25, "Engineer")
+name,age,profession=info
+print(name,age,profession)
+
+
+# 8. Given a tuple t = (4, 5, 6, 5, 7), use a tuple method to count how many times 5 appears.
+t=(4,5,6,5,7)
+t1=t.count(5)
+print(t1)
+
+
+# 9. Use a tuple method to find the index of the value 6 in the tuple from question 8.
+t=(4, 5, 6, 5, 7)
+t2=t.index(6)
+print(t2)
+
+# 10. Convert the list [1, 2, 3, 4] to a tuple and print its type.
+
+mylist=[1, 2, 3, 4]
+mytuple=tuple(mylist)
+print(mytuple)
+print(type(mytuple))
+
+# 11. Combine two tuples: (1, 2) and (3, 4) using concatenation.
+t1=(1,2)
+t2=(3,4)
+t3=t1+t2
+print(t3)
+
+
+# 12. Repeat the tuple (9, 8) three times using the repetition operator.
+tuple=(9,8)
+repeat_tuple=tuple*3
+print(repeat_tuple)
+
+# 13. Check if the value "blue" exists in the tuple `colors` from question 1.
+
+if blue in colors:
+print("blue color is present")
+else:
+print("blue colour is not present")
+
+# 14. Create a nested tuple with two elements: (1, 2) and (3, (4, 5)).
+#     Access the number 5 using indexing.
+
+# 15. Convert the tuple (10, 20, 30) into a list, add 40 to it, then convert it back to a tuple.
+t=(10,20,30)
+lst=list(t)
+t.add(40)
+print(t)
+lst=tuple(lst)
+print(lst)

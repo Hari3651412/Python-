@@ -1,0 +1,63 @@
+# Sets Practice Questions
+
+# 1. Create a set named `fruits` with values: "apple", "banana", "cherry".
+Fruits={"apple","banana", "cherry"}
+Print(Fruits)
+
+# 2. Add a new item "mango" to the `fruits` set.
+new_item=Fruits.add("mango")
+Print(new_item)
+
+# 3. Try to add "banana" again to the set. What happens?
+it will not print duplicates
+
+# 4. Remove "apple" from the set using the remove() method.
+Fruits.remove("apple")
+print(Fruits)
+
+# 5. Use discard() to remove "grape" from the set (which does not exist). Does it raise an error?
+it will raise an error grape elementis not found in the set
+
+# 6. Create two sets:
+#    a = {1, 2, 3, 4}
+#    b = {3, 4, 5, 6}
+#    Find their union.
+print(a || b)
+
+
+# 7. Find the intersection of sets `a` and `b`.
+print(a & b)
+
+
+# 8. Find the difference between sets `a` and `b` (elements in a not in b).
+print(a-b)
+
+# 9. Find the symmetric difference between `a` and `b`.
+print(a -b)
+
+# 10. Check if sets {1, 2} is a subset of {1, 2, 3, 4}.
+
+print(a.issubset(b))
+
+# 11. Check if {1, 2, 3, 4} is a superset of {2, 3}.
+set1 = {1, 2, 3, 4}
+set2 = {2, 3}
+
+print(set1.issuperset(set2))
+
+# 12. Check if sets {1, 2} and {3, 4} are disjoint (no common elements).
+set1 = {1, 2}
+set2 = {3, 4}
+
+print(set1.isdisjoint(set2))
+
+# 13. Use the pop() method on a set and print the removed value.
+fruits.pop()
+
+# 14. Use the clear() method to empty a set and then print it.
+
+# 15. Convert the list [1, 2, 2, 3, 4] into a set and explain what happens to duplicates.
+lst=[1,2,3,4,2]
+newlst=set(lst)
+print(newlst)
+

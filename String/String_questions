@@ -1,0 +1,86 @@
+# 📝 String Slicing, Concatenation, and String Methods Practice Questions
+
+# Given the string:
+text = "PythonProgramming"
+
+# 1. Extract the substring "Python" using slicing.
+String = "PythonProgramming"
+Substring=String[0:6]
+print(Substring)
+
+# 2. Extract the substring "Programming" using slicing.
+Substring=String[6:17]
+print(Substring)
+
+# 3. Concatenate the string " is fun!" to the variable text.
+Text=String+" is fun! "
+print(Text)
+
+# 4. Use slicing and concatenation to change "PythonProgramming" into "Python Language".
+String = "PythonProgramming"
+Substring=String[0:6]+" Language "
+print(Substring)
+
+# 5. Convert the string to all uppercase letters using a string method.
+print(string.upper())
+
+# 6. Convert the string to all lowercase letters using a string method.
+print(String.lower())
+
+# 7. Check if the substring "thon" is present in the string using a string method.
+String = "PythonProgramming"
+if "thon" in String:
+ print("thon is present")
+else:
+   print("thon is not present")
+
+# 8. Replace the substring "Programming" with "Language" using a string method.
+String = "PythonProgramming"
+Substring= String.Replace("programming","Lanuage")
+Print(Substring)
+
+# 9. Find the index of the first occurrence of "g" in the string.
+String= "PythonProgramming"
+index=String.find("g")
+Print(index)
+
+# 10. Split the string into a list of words by using an appropriate string method (Hint: insert a space first).
+String="Python Programming"
+words=String.split(   )
+print(words)
+# 11. Remove any leading or trailing whitespace from the string (Add some spaces first to test)
+
+String= "Python Programming"
+clean_string = String.strip()  # Removes leading and trailing spaces
+print(clean_string)
+
+# 12. Count how many times the letter "m" appears in the string.
+
+String= "PythonProgramming"
+count_m=String.Count("m")
+Print(count_m)
+
+# 13. Check if the string starts with "Py" and ends with "ing".
+
+string = "PythonProgramming"
+
+starts_with_py = string.startswith("Py")
+ends_with_ing = string.endswith("ing")
+
+print(f"Starts with 'Py': {starts_with_py}")
+print(f"Ends with 'ing': {ends_with_ing}")
+
+# 14. Use concatenation to join two strings: "Hello" and "World" without space and then with space.
+string1 = "Hello"
+string2 = "World"
+result = string1 + string2  # Joining without space
+print(result)
+
+result_with_space = string1 + " " + string2  # Joining with a space
+print(result_with_space)
+
+
+# 15. Use slicing to get every second character from the string.
+string = "PythonProgramming"
+result = string[::2]  # Every second character
+print(result)

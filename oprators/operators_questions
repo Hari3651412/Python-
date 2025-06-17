@@ -1,0 +1,43 @@
+#Practice Questions on First 4 Operator Types
+
+# 1. Arithmetic Operators:
+#    Given a = 15 and b = 4, calculate and print:
+#    - a + b
+ print(a+b)
+#    - a - b    print(a+b)
+#    - a * b     print(a*b)
+#    - a / b     print(a / b)
+#    - a % b     print(a%b)
+#    - a ** b    print(a ** b)
+#    - a // b   print(a // b)
+
+# 2. Comparison Operators:
+#    For variables x = 8 and y = 12, print the results of:
+#    - x == y   print( x == y)
+#    - x != y   print( x != y )
+#    - x > y    print( x > y )
+#    - x < y    print( x < y )
+#    - x >= y   print( x >= y )
+#    - x <= y   print(  x <= y )
+
+# 3. Logical Operators:
+#    Given:
+#    p = True
+#    q = False
+#    Evaluate and print:
+#    - p and q    print(p and q )
+#    - p or q     print(p or q )
+#    - not p      print( not p)
+#    - not q      print( not q)
+
+# 4. Assignment Operators:
+#    Start with:
+#    num = 10
+#    Perform these operations step by step, printing the value of num each time:
+#    - num += 5
+#    - num -= 3
+#    - num *= 2
+#    - num /= 4
+#    - num %= 3
+#    - num **= 2
+#    - num //= 2

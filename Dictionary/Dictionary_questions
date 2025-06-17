@@ -1,0 +1,49 @@
+# 📝 Dictionaries Practice Questions
+
+# 1. Create a dictionary named `student` with keys: "name", "age", "grade" and values: "Alice", 20, "A".
+student={"name":"Alice","age"=20","grade"='A'}
+print(student)
+}
+
+
+# 2. Access the value associated with the key "grade" in the `student` dictionary.
+print(student["grade"])
+
+# 3. Add a new key-value pair "gender": "female" to the `student` dictionary.
+print(student["grade"])
+student["gender"]={"female"}
+print(student)
+
+# 4. Change the value of "age" to 21 in the dictionary
+student["age"]=21
+print(student)
+# 5. Use the get() method to safely access a non-existing key "city", and provide a default value "Unknown".
+city=student.get["city","unknown"}
+print(city)
+# 6. Remove the key "grade" using the pop() method and print the updated dictionary.
+
+# 7. Use the popitem() method on the dictionary and print the key-value pair that was removed.
+
+# 8. Use the del keyword to delete the key "gender" from the dictionary.
+
+# 9. Clear all items from the dictionary using the clear() method and print the dictionary.
+
+# 10. Create a dictionary using the dict() constructor with keys: "brand", "model", "year" and your own values.
+
+# 11. Use setdefault() to add a key "color" with value "black" if it doesn’t already exist.
+
+# 12. Use the update() method to add two new key-value pairs to the dictionary: "mileage": 10000, "fuel": "Petrol".
+
+# 13. Copy the dictionary to another variable using copy() and print both dictionaries.
+
+# 14. Check if the key "model" exists in the dictionary using the `in` keyword.
+
+# 15. Create a nested dictionary for an employee:
+#     employee = {
+#         "name": "John",
+#         "contact": {
+#             "email": "john@example.com",
+#             "phone": "1234567890"
+#         }
+#     }
+#     Access the email address from the nested dictionary.

@@ -1,0 +1,31 @@
+#  Python Casting (Type Conversion) Practice Questions
+
+# 1. Convert the string "123" to an integer and add 10 to it.
+
+# 2. Convert the float 45.67 to an integer and print the result.
+
+# 3. Convert the integer 100 to a string and concatenate it with " points".
+
+# 4. Convert the string "3.14" to a float and multiply it by 2.
+
+# 5. Convert the number 0 to a boolean. What is the result?
+
+# 6. Convert the empty string "" to a boolean. What is the result?
+
+# 7. Convert the boolean True to an integer. What value do you get?
+
+# 8. Convert the boolean False to a float. What value do you get?
+
+# 9. Try to convert the string "abc" to an integer. What happens?
+
+# 10. Convert the string "False" to a boolean using bool(). What do you observe?
+
+# 11. Convert the list [1, 2, 3] to a string and print it.
+
+# 12. Convert the string "['a', 'b']" to a list using eval() (⚠️ Be cautious with eval).
+
+# 13. Convert the float 9.9999 to a string and slice the first 4 characters.
+
+# 14. Cast the integer 10 to a float and divide it by 3. What type is the result?
+
+# 15. Given a string "25", cast it to int, float, and bool — and print all 3 results.

@@ -1,0 +1,52 @@
+# List Methods & Slicing Practice Questions
+
+# 1. Create a list named 'fruits' containing: ["apple", "banana", "cherry", "date", "elderberry"]
+fruits=["apple", "banana", "cherry", "date", "elderberry"]
+# 2. Add "fig" to the end of the 'fruits' list.
+fruits.append("fig")
+print(fruits)
+
+# 3. Insert "blueberry" at index 2 in the 'fruits' list.
+fruits.insert(2,"blueberry")
+print(fruits)
+
+# 4. Remove "date" from the list using a list method.
+fruits.remove("date")
+print("fruits")
+
+# 5. Pop the last item from the list and print it.
+fruits.pop(-1)
+print(fruits)
+
+# 6. Use slicing to get the first three fruits from the list.
+print(fruits[:3])
+
+# 7. Use slicing to get every second fruit from the list.
+
+
+# 8. Use slicing with a negative step to reverse the list.
+print(fruits[::-1])
+
+# 9. Find the index of "banana" in the list.
+
+print(fruits.index("banana"))
+
+# 10. Count how many times "apple" appears in the list.
+print(fruits.count("apple"))
+
+# 11. Sort the list in alphabetical order.
+fruits.sort()
+print(fruits)
+
+# 12. Clear all items from the list.
+fruits.clear()
+
+# 13. Create a new list that contains only the middle three fruits using slicing.
+print([fruits[1:4])
+# 14. Use slicing to get all fruits except the first and last.
+
+# 15. Combine the following two lists into a new list using a list method:
+list1 = ["a", "b", "c"]
+list2 = ["d", "e", "f"]
+list3 =list1+list2
+print(list3)
